@@ -42,15 +42,26 @@ namespace CityInfo.API
                 {
                     Id = 2,
                     Name = "Antwerp",
-                    Description = "The on e with big park"
+                    Description = "The one with big park",
+                    PointsOfInterest = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 3,
+                            Name = "Burj Khalifa",
+                            Description = "The highest Building in world"
+                        }
+                    }
                 },
                 new CityDto()
                 {
                     Id = 3,
                     Name = "Bangalore",
-                    Description = "The on e with big park"
+                    Description = "The one with big park"
                 },
             };
         }
+
+
     }
 }

@@ -12,3 +12,17 @@ C:\learn\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.AssemblyInfo
 C:\learn\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorTargetAssemblyInfo.cache
 C:\learn\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.dll
 C:\learn\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.deps.json
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.runtimeconfig.json
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.runtimeconfig.dev.json
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.dll
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csprojAssemblyReference.cache
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csproj.CoreCompileInputs.cache
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cache
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cs
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.AssemblyInfoInputs.cache
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.AssemblyInfo.cs
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorTargetAssemblyInfo.cache
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.dll
+C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb

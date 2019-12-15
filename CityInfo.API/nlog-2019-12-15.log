@@ -1,0 +1,79 @@
+2019-12-15 21:17:01.1642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3201/  0
+2019-12-15 21:17:01.1642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/  
+2019-12-15 21:17:01.2733|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 116.1486ms 200 
+2019-12-15 21:17:04.3387|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 21:17:04.3767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3221.0699ms 500 text/html; charset=utf-8
+2019-12-15 21:17:04.6916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/favicon.ico  
+2019-12-15 21:17:05.2907|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 21:17:05.2907|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 607.1997ms 500 text/html; charset=utf-8
+2019-12-15 21:17:08.9324|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:3201/api/cities/4/pointsOfInterest  
+2019-12-15 21:17:08.9734|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-12-15 21:17:09.0393|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-12-15 21:17:09.0393|INFO|CityInfo.API.Controllers.PointsOfInterestController|city with id 4 wasn't found when accessing points of interset
+2019-12-15 21:17:09.0554|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 8.3579ms.
+2019-12-15 21:17:09.0687|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2019-12-15 21:17:09.0687|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 99.1201ms
+2019-12-15 21:17:09.0918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 157.083ms 404 text/plain
+2019-12-15 22:23:49.4643|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/  
+2019-12-15 22:23:49.4644|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3201/  0
+2019-12-15 22:23:49.5810|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 123.6163ms 200 
+2019-12-15 22:23:50.6615|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:23:50.7060|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1250.793ms 500 text/html; charset=utf-8
+2019-12-15 22:23:51.0437|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/favicon.ico  
+2019-12-15 22:23:51.2974|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:23:51.3060|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 262.1666ms 500 text/html; charset=utf-8
+2019-12-15 22:24:02.6346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:3201/api/cities/1/pointsOfInterest/6  0
+2019-12-15 22:24:02.6969|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointsOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-12-15 22:24:02.7824|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-12-15 22:24:02.7946|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 4.4219ms.
+2019-12-15 22:24:02.8043|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2019-12-15 22:24:02.8043|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) in 107.3816ms
+2019-12-15 22:24:02.8198|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 184.2809ms 404 text/plain
+2019-12-15 22:24:17.3380|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:3201/api/cities/1/pointsOfInterest/1  0
+2019-12-15 22:24:17.3380|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointsOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-12-15 22:24:17.3625|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-12-15 22:24:17.3735|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 5.5143ms.
+2019-12-15 22:24:17.3820|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-12-15 22:24:17.3820|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) in 37.9245ms
+2019-12-15 22:24:17.3820|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.0256ms 204 
+2019-12-15 22:29:33.7307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/  
+2019-12-15 22:29:33.7307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3201/  0
+2019-12-15 22:29:33.8506|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 126.7683ms 200 
+2019-12-15 22:29:36.5864|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:29:36.6358|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2913.0799ms 500 text/html; charset=utf-8
+2019-12-15 22:29:37.0067|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/favicon.ico  
+2019-12-15 22:29:37.8350|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:29:37.8655|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 858.4118ms 500 text/html; charset=utf-8
+2019-12-15 22:29:49.5237|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:3201/api/cities/1/pointsOfInterest/1  0
+2019-12-15 22:29:49.5828|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointsOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-12-15 22:29:49.6632|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-12-15 22:29:49.6786|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.3866ms.
+2019-12-15 22:29:49.6786|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-12-15 22:29:49.6959|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) in 106.0247ms
+2019-12-15 22:29:49.6959|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 179.6942ms 204 
+2019-12-15 22:40:38.4420|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3201/  0
+2019-12-15 22:40:38.4420|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/  
+2019-12-15 22:40:38.5590|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 124.6928ms 200 
+2019-12-15 22:40:40.7145|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:40:40.7574|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2324.8194ms 500 text/html; charset=utf-8
+2019-12-15 22:40:41.1188|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/favicon.ico  
+2019-12-15 22:40:41.7542|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:40:41.7634|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 644.7102ms 500 text/html; charset=utf-8
+2019-12-15 22:40:45.0274|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:3201/api/cities/1/pointsOfInterest/1  0
+2019-12-15 22:40:45.0847|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointsOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-12-15 22:40:45.1728|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-12-15 22:42:26.8483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/  
+2019-12-15 22:42:26.8483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3201/  0
+2019-12-15 22:42:26.9707|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.7259ms 200 
+2019-12-15 22:42:28.5143|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:42:28.5549|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1714.2542ms 500 text/html; charset=utf-8
+2019-12-15 22:42:28.8557|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44366/favicon.ico  
+2019-12-15 22:42:29.4995|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-12-15 22:42:29.5106|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 653.4944ms 500 text/html; charset=utf-8
+2019-12-15 22:42:35.4201|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:3201/api/cities/1/pointsOfInterest/1  0
+2019-12-15 22:42:35.4666|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointsOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-12-15 22:42:35.5382|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-12-15 22:42:40.3923|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 4846.1138ms.
+2019-12-15 22:42:40.4035|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-12-15 22:42:40.4035|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointsOfInterest (CityInfo.API) in 4933.3885ms
+2019-12-15 22:42:40.4227|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5000.2537ms 204 

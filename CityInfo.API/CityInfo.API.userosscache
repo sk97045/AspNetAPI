@@ -1,6 +1,2 @@
-ProjectItem:C:\learn\CityInfo\CityInfo.API\CitiesDataStore.cs
-ProjectItem:C:\learn\CityInfo\CityInfo.API\CityInfo.API.userosscache
-ProjectItem:C:\learn\CityInfo\CityInfo.API\Models\PointOfInterestDto.cs
-ProjectItem:C:\learn\CityInfo\CityInfo.API\Controllers\PointsOfInterestController.cs
-ProjectItem:C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\Models\PointOfInterestForCreationDto.cs
-ProjectItem:C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\Models\PointOfInterestForUpdateDto.cs
+ProjectItem:C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\nlog.config
+ProjectItem:C:\Users\shukuma\learn\AspNetAPI\CityInfo.API\CityInfo.API.userosscache

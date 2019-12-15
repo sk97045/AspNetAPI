@@ -1,0 +1,8 @@
+2019-12-15 21:15:47.8075|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:3201/api/cities/4/pointsOfInterest  
+2019-12-15 21:15:47.8656|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-12-15 21:15:47.8953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-12-15 21:15:47.9029|INFO|CityInfo.API.Controllers.PointsOfInterestController|city with id 4 wasn't found when accessing points of interset
+2019-12-15 21:15:47.9029|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 5.5548ms.
+2019-12-15 21:15:47.9137|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2019-12-15 21:15:47.9337|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 61.7635ms
+2019-12-15 21:15:47.9337|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 131.7696ms 404 text/plain
